@@ -1,0 +1,33 @@
+var elPlus = document.querySelector('.plus')
+var elMinus = document.querySelector('.minus')
+var elKopay = document.querySelector('.kopay')
+var elBol = document.querySelector('.kopay')
+
+elPlus.addEventListener('click', function(){
+    var birinchiSon = document.querySelector('.birinch__son')
+    var ikkinchiSon = document.querySelector('.ikkinchi__son')
+    var birinchiSonVolue = parseFloat(birinchiSon.value)
+    var ikkinchiSonVolue = parseFloat(ikkinchiSon.value)
+    console.log(birinchiSonVolue + ikkinchiSonVolue)
+})
+elMinus.addEventListener('click', function(){
+    var birinchiSon = document.querySelector('.birinch__son')
+    var ikkinchiSon = document.querySelector('.ikkinchi__son')
+    var birinchiSonVolue = parseFloat(birinchiSon.value)
+    var ikkinchiSonVolue = parseFloat(ikkinchiSon.value)
+    console.log(birinchiSonVolue - ikkinchiSonVolue)
+})
+elKopay.addEventListener('click', function(){
+    var birinchiSon = document.querySelector('.birinch__son')
+    var ikkinchiSon = document.querySelector('.ikkinchi__son')
+    var birinchiSonVolue = parseFloat(birinchiSon.value)
+    var ikkinchiSonVolue = parseFloat(ikkinchiSon.value)
+    console.log(birinchiSonVolue * ikkinchiSonVolue)
+})
+elBol.addEventListener('click', function(){
+    var birinchiSon = document.querySelector('.birinch__son')
+    var ikkinchiSon = document.querySelector('.ikkinchi__son')
+    var birinchiSonVolue = parseFloat(birinchiSon.value)
+    var ikkinchiSonVolue = parseFloat(ikkinchiSon.value)
+    console.log(birinchiSonVolue / ikkinchiSonVolue)
+})
